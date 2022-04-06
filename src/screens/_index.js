@@ -3,13 +3,17 @@ import Home from './home';
 import MyNotes from './mynotes';
 import NoteEditor from './note-editor';
 import Dev from './dev';
+import Loading from './loading';
+import TriggerLoading from './trigger-loading';
 
 export const screenkeys = [
     'home',
     'mynotes',
     'note-editor',
     'create-note',
-    'dev'
+    'dev',
+    'loading',
+    'trigger-loading'
 ];
 
 export const screencomponents = [
@@ -17,7 +21,9 @@ export const screencomponents = [
     MyNotes,
     NoteEditor,
     CreateNote,
-    Dev
+    Dev,
+    Loading,
+    TriggerLoading
 ];
 
 export default screenkeys.map((skey, i) => {
